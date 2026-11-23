@@ -1,0 +1,9 @@
+.dart_tool/
+.packages
+build/
+coverage/
+*.exe
+.DS_Store
+service-account*.json
+*.key.json
+config.local.json

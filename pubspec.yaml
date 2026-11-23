@@ -1,0 +1,28 @@
+name: play_console_mcp
+description: >-
+  Model Context Protocol (MCP) server in pure Dart for Google Play Console:
+  release management, staged rollouts, store listings, reviews, Android Vitals,
+  subscriptions, one-time products, purchases, orders, app recovery, and GCS reports.
+version: 0.1.0
+homepage: https://github.com/brktlhylmz/play-console-mcp
+repository: https://github.com/brktlhylmz/play-console-mcp
+issue_tracker: https://github.com/brktlhylmz/play-console-mcp/issues
+topics:
+  - mcp
+  - google-play
+  - play-console
+  - android
+  - flutter
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  googleapis_auth: ^2.3.0
+  http: ^1.3.0
+
+dev_dependencies:
+  test: ^1.25.0
+
+executables:
+  play-console-mcp: play_console_mcp
